@@ -17,6 +17,8 @@
         Me.ID = id
         Me.Type = type
         Me.IsMethod = False
+
+
     End Sub
 
     Sub New(id As String, simpleId As String, type As TypeEnum, args As List(Of Symbol), instr As List(Of Node))
